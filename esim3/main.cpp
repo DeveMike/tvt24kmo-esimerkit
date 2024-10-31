@@ -17,12 +17,12 @@ int main() {
         cout << "Luvun " << num << " kertoma = " << result << endl;
     }
 
-    //  cout<<"Anna n "<<endl;
-    //  cin>>n;
-    //  cout<<"Anna k"<<endl;
-    //  cin>>k;
-    //  result=coefficient(n,k);
-    //  cout<<n<<" yli "<<k<<" = "<<result<<endl;
+      cout<<"Anna n "<<endl;
+      cin>>n;
+      cout<<"Anna k"<<endl;
+      cin>>k;
+      result=coefficient(n,k);
+      cout<<n<<" yli "<<k<<" = "<<result<<endl;
 
     return 0;
 }

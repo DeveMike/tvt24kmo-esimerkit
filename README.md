@@ -46,3 +46,6 @@ Tällaista metodia kutsuttaessa kannattaa käyttää <b>try-catch rakennetta</b>
         cout << "Error: " << e.what() << endl;
     }
 </pre>
+
+Kun poikkeus eli **exception** esiintyy, hypätään tuohon catch-lohkoon. Siinä luon olion nimeltään **e**.
+Tuollaisella oliolla on metodi **what()**, joka tulostaa sen virheilmoituksen, joka factorial funktiossa määriteltiin.

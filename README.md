@@ -18,17 +18,17 @@ Sovelluksessa on factorial-metodi, jolle on määritelty virhetilanne (eli kun n
 Tällöin tarvitaan <b>stdexcept</b> kirjasto
 Funktion toteutus on siis seuraava:
 <pre>
-#include <stdexcept>
+#include &lt;stdexcept&gt;
 
 int factorial(int n)
 {
     if(n<0){
-        //jos n<0 nostetaan runtime error
+        //jos n < 0 nostetaan runtime error
         throw std::runtime_error("n ei saa olla negatiivinen.");
     }
     else{
         int result=1;
-        for(int row=1; row<=n; row++){
+        for(int row=1; row <= n; row++){
             result= row*result;
         }
         return result;

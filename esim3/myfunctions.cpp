@@ -1,10 +1,7 @@
-#include <stdexcept>
-
-
 int factorial(int n)
 {
     if(n<0){
-        throw std::runtime_error("n ei saa olla negatiivinen.");
+        return -1;
     }
     else{
         int result=1;

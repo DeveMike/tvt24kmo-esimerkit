@@ -49,3 +49,10 @@ Tällaista metodia kutsuttaessa kannattaa käyttää <b>try-catch rakennetta</b>
 
 Kun poikkeus eli **exception** esiintyy, hypätään tuohon catch-lohkoon. Siinä luon olion nimeltään **e**.
 Tuollaisella oliolla on metodi **what()**, joka tulostaa sen virheilmoituksen, joka factorial funktiossa määriteltiin.
+
+Katso video https://youtu.be/Y0G3n5nCQI0
+
+## if_else_if
+
+Esimerkki siitä miten yksittäisen if-lauseet on usein järkevää korvata if-else sarjalla.
+Katso video https://youtu.be/Z2OklZcqJe4

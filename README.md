@@ -56,3 +56,12 @@ Katso video https://youtu.be/Y0G3n5nCQI0
 
 Esimerkki siitä miten yksittäisen if-lauseet on usein järkevää korvata if-else sarjalla.
 Katso video https://youtu.be/Z2OklZcqJe4
+
+## Esim5
+
+Esimerkissä havainnollistetaan eri tapoja luoda olio: eli 
+<ul>
+<li>Automaattinen olio</li>
+<li>Dynaaminen olio</li>
+<li>Smart pointterilla luotu Dynaaminen olio</li>
+</ul>

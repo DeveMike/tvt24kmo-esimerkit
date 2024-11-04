@@ -65,3 +65,12 @@ Esimerkissä havainnollistetaan eri tapoja luoda olio: eli
 <li>Dynaaminen olio</li>
 <li>Smart pointterilla luotu Dynaaminen olio</li>
 </ul>
+
+## Esim6
+
+Esimerkissä havainnollistetaan funktion ylikuormittamista. Ja siis tässä esimerkissä Luokan Student konstruktorista on kaksi eri versiota:
+<ul>
+<li>Student(string, string, string, int)</li>
+<li>Student()</li>
+</ul>
+Lisäksi setAge()-metodiin on lisätty ehto, että age arvon tulisi olla positiivinen.

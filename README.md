@@ -85,4 +85,5 @@ Tästä olisi tietysti enemmän hyötyä, jos olioita olisi esimerkiksi 100.
 
 Esimerkissä havainnollistetaan **perintää**. Siinä luodaan kantaluokka **Animal**, josta periytetään luokat **Cat** ja **Elephant**.
 Ideana on, että Animal luokkaan tulee kaikille yhteiset ominaisuudet ja Cat- ja Elephant-luokkaan, niiden erityisominaisuuksia.
-Esimerkissä myös havainnollistetaan **metodin ylikirjoittamista**. Kantaluokassa Animal määritellään metodi printData, jonka perivät luokat voivat halutessaa ylikirjoittaa. Cat-luokassa printData on ylikirjoitettu, mutta Elephant-luokassa ei. Joten Elephant-luokan oliot käyttävät Animal-luokan printData-metodia.
+
+Esimerkissä myös havainnollistetaan **metodin ylikirjoittamista**. Kantaluokassa Animal määritellään metodi printData, jonka perivät luokat voivat halutessaan ylikirjoittaa. Cat-luokassa printData on ylikirjoitettu, mutta Elephant-luokassa ei. Joten Elephant-luokan oliot käyttävät Animal-luokan printData-metodia.

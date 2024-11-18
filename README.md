@@ -87,3 +87,11 @@ Esimerkissä havainnollistetaan **perintää**. Siinä luodaan kantaluokka **Ani
 Ideana on, että Animal luokkaan tulee kaikille yhteiset ominaisuudet ja Cat- ja Elephant-luokkaan, niiden erityisominaisuuksia.
 
 Esimerkissä myös havainnollistetaan **metodin ylikirjoittamista**. Kantaluokassa Animal määritellään metodi printData, jonka perivät luokat voivat halutessaan ylikirjoittaa. Cat-luokassa printData on ylikirjoitettu, mutta Elephant-luokassa ei. Joten Elephant-luokan oliot käyttävät Animal-luokan printData-metodia.
+
+## kooste1
+
+ClassRoom luokka sisältää Student-luokan olioita. Esimerkissä luodaan kolme Student-luokan oliota pinoon ja niitä ei siis tarvitse itse deletoida. Yksi Student olio luodaan dynaamiseen muistiin ja se tuhotaan ClassRoom luokan destruktorissa.
+
+## kooste2
+
+LoginForn luokka sisältää Form luokan olion. Tarkoitus oli esitellä kuinka graafisia Qt-sovelluksia tehdessä Form-luokan sisällä luodaan uusi Form luokan olio. Esimerkistä ei tullut niin selkeä, kuin olin suunnitellut.

@@ -95,3 +95,11 @@ ClassRoom luokka sisältää Student-luokan olioita. Esimerkissä luodaan kolme 
 ## kooste2
 
 LoginForn luokka sisältää Form luokan olion. Tarkoitus oli esitellä kuinka graafisia Qt-sovelluksia tehdessä Form-luokan sisällä luodaan uusi Form luokan olio. Esimerkistä ei tullut niin selkeä, kuin olin suunnitellut.
+
+## qt_parent_example
+
+Esimerkissä FisrtClass luokassa luodaan SecondClass olio, jolle annetaan parent-olioksi, nykyinen olio.
+
+## http_example
+
+Luokassa tehdään http-request ja käytetään signal-slot systeemiä ja muutetaan http-response json-objektiksi.

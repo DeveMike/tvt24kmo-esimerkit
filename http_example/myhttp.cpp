@@ -11,7 +11,7 @@ void MyHttp::getUsers(int id)
     QString s = QString::number(id);
     QString site_url="https://reqres.in/api/users/"+s;
     //qDebug()<<"Url="+site_url;
-    QNetworkRequest request((site_url));
+    QNetworkRequest request(site_url);
 
     getManager = new QNetworkAccessManager(this);
 

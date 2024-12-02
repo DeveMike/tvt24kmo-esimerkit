@@ -121,3 +121,8 @@ Huom!
 <li>Jos Animal-luokassa on virtuaalisia funktioita, ja niitä kutsutaan objD-osoittimen kautta, kutsutaan Dog-luokan ylikirjoittamaa versiota.</li>
 <li>Jos funktiot eivät ole virtuaalisia, kutsutaan Animal-luokan versiota, vaikka kyseessä olisi Dog-olio.</li>
 </ul>
+
+## GrahicalApp1
+
+Qt Widget sovellus, jossa luetaan tekstiä LineExit:stä ja tulostetaan tekstiä labeliin.
+Esimerkissä harjoitellaan myös toisen ikkunan (Widgetin) avaamista ja datan vientiä siihen.

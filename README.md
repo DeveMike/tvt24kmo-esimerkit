@@ -112,7 +112,7 @@ Jos jostain syystä halutaan luoda Dog-luokan olio lauseella
 <pre>
 Animal *objD=new Dog;
 </pre>
-on Animal luokan destruktori määriteltävä virtuaaliseksi.
+on **Animal luokan destruktori määriteltävä virtuaaliseksi**.
 Ja edellä siis objD on Animal-luokan osoitin, joka osoittaa Dog-tyyppistä oliota.
 
 Huom!

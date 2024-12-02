@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {
 
-    Animal *objAnimal=new Animal;
-    objAnimal->callOut();
-    delete objAnimal;
+//    Animal *objAnimal=new Animal;
+//    objAnimal->callOut();
+//    delete objAnimal;
 
     Dog *objDog=new Dog;
     objDog->callOut();
@@ -22,18 +22,18 @@ int main()
 //    objD->callOut();
 //    delete objD;
 
-    //    vector<unique_ptr<Animal>> objects;
+//        vector<unique_ptr<Animal>> objects;
 
-    //    objects.push_back(make_unique<Animal>());
-    //    objects.push_back(make_unique<Dog>());
+//        objects.push_back(make_unique<Animal>());
+//        objects.push_back(make_unique<Dog>());
 
-    //    for (int x=0; x<=1; x++) {
-    //        objects[x]->callOut();
-    //    }
+//        for (int x=0; x<=1; x++) {
+//            objects[x]->callOut();
+//        }
 
-    //    Animal *objA=new Animal;
-    //    objA->callOut();
-    //    delete objA;
+//        Animal *objA=new Animal;
+//        objA->callOut();
+//        delete objA;
 
     return 0;
 }

@@ -6,8 +6,8 @@ class Animal
 {
 public:
     Animal();
-    virtual void callOut();
-    ~Animal();
+    virtual void callOut()=0;
+    virtual ~Animal();
 };
 
 #endif // ANIMAL_H

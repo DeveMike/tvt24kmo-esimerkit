@@ -124,5 +124,5 @@ Huom!
 
 ## GrahicalApp1
 
-Qt Widget sovellus, jossa luetaan tekstiä LineExit:stä ja tulostetaan tekstiä labeliin.
+Qt Widget sovellus, jossa luetaan tekstiä LineEdit:stä (teksti laatikko) ja tulostetaan tekstiä labeliin.
 Esimerkissä harjoitellaan myös toisen ikkunan (Widgetin) avaamista ja datan vientiä siihen.

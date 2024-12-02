@@ -103,3 +103,21 @@ Esimerkissä FisrtClass luokassa luodaan SecondClass olio, jolle annetaan parent
 ## http_example
 
 Luokassa tehdään http-request ja käytetään signal-slot systeemiä ja muutetaan http-response json-objektiksi.
+
+## perinta_esim.
+
+Esimerkissä on kantaluokka **Animal** ja perivä luokka **Dog**. Dog-luokassa ylikirjoitetaan Animal luokan metodi **callOut**.
+
+Jos jostain syystä halutaan luoda Dog-luokan olio lauseella
+<pre>
+Animal *objD=new Dog;
+</pre>
+on Animal luokan destruktori määriteltävä virtuaaliseksi.
+Ja edellä siis objD on Animal-luokan osoitin, joka osoittaa Dog-tyyppistä oliota.
+
+Huom!
+
+<ul>
+<li>Jos Animal-luokassa on virtuaalisia funktioita, ja niitä kutsutaan objD-osoittimen kautta, kutsutaan Dog-luokan ylikirjoittamaa versiota.</li>
+<li>Jos funktiot eivät ole virtuaalisia, kutsutaan Animal-luokan versiota, vaikka kyseessä olisi Dog-olio.</li>
+</ul>
